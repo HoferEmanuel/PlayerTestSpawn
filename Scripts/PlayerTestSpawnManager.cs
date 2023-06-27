@@ -20,5 +20,7 @@ public class PlayerTestSpawnManager : MonoBehviour
         currentSpawnIndex = Mathf.Clamp(0, spawns.Count());
     }
 
+    public void ClearSpawnList() => spawns.Clear();
+
     public void MovePlayerToSpawn() => player.transform.position = spawnPos;
 }

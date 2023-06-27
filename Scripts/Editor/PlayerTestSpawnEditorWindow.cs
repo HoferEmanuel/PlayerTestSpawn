@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using System.Collections;
 
 public class PlayerTestSpawnEditorWindow : EditorWindow
 {
@@ -36,6 +37,19 @@ public class PlayerTestSpawnEditorWindow : EditorWindow
 
     void OnGUI()
     {
+
+
+        EditorGUILayout.BeginHorizontal();
+
+        if(GUILayout.Button("<"))
+            PlayerTestSpawnManager.Instance.ChangeSpawnPos(-1);
         
+        if(GUILayout.Button("<"))
+            PlayerTestSpawnManager.Instance.ChangeSpawnPos(+1);
+
+        if(GUILayout.Button("Clear List"))
+            PlayerTestSpawnManager.Instance.ClearSpawnList();
+
+        EditorGUILayout.EndHorizontal();
     }
 }
