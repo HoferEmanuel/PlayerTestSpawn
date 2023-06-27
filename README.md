@@ -1,5 +1,5 @@
-### Unity-PlayerTestSpawnManager
-## Setup your Player-Spawn with a click.
+# Unity-PlayerTestSpawnManager
+### Setup your Player-Spawn with a click.
 
 Im currently working on a 3D-Plattformer.
 Currently im doing alot of level-designing and i have to move the player from spot to spot
