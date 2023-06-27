@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[ExecuteInEditMode]
+[ExecuteAlways]
 public class PlayerTestSpawnManager : MonoBehviour
 {
     public static PlayerTestSpawnManager Instance;
