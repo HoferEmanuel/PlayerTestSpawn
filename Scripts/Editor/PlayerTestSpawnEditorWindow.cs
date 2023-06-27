@@ -27,7 +27,7 @@ public class PlayerTestSpawnEditorWindow : EditorWindow
             Debug.LogError("PlayerTestSpawnIndicator script not found in the assets folder.");
     }
 
-    [MenuItem(DigitalDisaster/PlayerTestSpawner)]
+    [MenuItem(Tools/DigitalDisaster/PlayerTestSpawner)]
     static void ToggleWindow()
     {
         PlayerTestSpawnEditorWindow window = (PlayerTestSpawnEditorWindow)GetWindow(typeof(PlayerTestSpawnEditorWindow));
